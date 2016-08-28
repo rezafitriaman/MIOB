@@ -1,0 +1,55 @@
+.btn-warning {
+    font-size: 20px;
+    color: white;
+    background-color: #ffcd00!important;
+    border-color: #ffcd00!important;
+    width: 169px;
+    height: 59px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: all .2s linear;
+
+    &:hover, &:focus, &:active {
+        background-color: #ffcd00!important;
+        border-color: #ffcd00!important;
+        box-shadow: 2px 2px 0px rgb(255, 255, 255),4px 4px 0px #ffcd00;
+        top: -4px;
+        left: -4px;
+        outline: none;
+    }
+}
+
+.btn-info {
+    font-size: 16px;
+    color: white;
+    background-color: #f7941d;
+    border-color: #f7941d;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: all .2s linear;
+
+    &:hover, &:focus, &:active {
+        background-color: #f7941d!important;
+        border-color: #f7941d!important;
+        box-shadow: 2px 2px 0px rgb(255, 255, 255),4px 4px 0px #f7941d;
+        top: -4px;
+        left: -4px;
+        outline: none;
+    }
+}
+
+.button:focus {
+    outline: none; /* overrides chrome default focus outline */
+    -moz-appearance: none;
+}
+
+
+a {
+   outline: 0!important;
+}
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
